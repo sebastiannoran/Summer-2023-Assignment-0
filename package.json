@@ -1,5 +1,5 @@
 {
-  "name": "ttp-pis-assignment-0-fundamentals-of-js",
+  "name": "ttp-pis-assignment-0-fundamentals-of",
   "version": "1.0.0",
   "description": "This is a README file. Initial commit.",
   "main": "index.js",
@@ -39,8 +39,12 @@
   "dependencies": {
     "chai": "^4.2.0",
     "faker": "^4.1.0",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "moment": "^2.25.1",
     "sinon": "^9.0.2"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "keywords": []
 }
