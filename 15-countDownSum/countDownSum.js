@@ -1,6 +1,13 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+    // let result = ((num*(num+1))/2)
+    // return result;
+    // use the same logic as above, but use recursion
+    if(num === 1) {
+      return 1;
+    } else {
+      return num + this.countDownSum(num-1);
+    }
   }
 }
 
